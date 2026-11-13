@@ -210,7 +210,9 @@ output-options:
     - getAccessibleSecretMetadata
     - getAwsAppConnection
     - getAwsAppConnectionByName
+    - getAwsConnectionProvisioningTemplate
     - getAwsHoneyTokenConfig
+    - getAwsProvisioningTemplate
     - getAwsParameterStoreSecretSync
     - getAwsParameterStoreSecretSyncByName
     - getAwsSecretsManagerSecretSync
@@ -303,6 +305,7 @@ output-options:
     - listAvailableOrganizationUsers
     - listAvailableProjectIdentities
     - listAwsAppConnections
+    - listAwsAvailableAppConnections
     - listAwsParameterStoreSecretSyncs
     - listAwsSecretsManagerSecretSyncs
     - listDynamicSecretLeases
